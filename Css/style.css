@@ -6,13 +6,18 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 35px;
+}
 .my{
     color: orange;
 }
-section{
+.taifa-tow{
     display: flex;
     margin-bottom: 200px;
 }
+
+ 
 .taifa{
     width: 50%;
     margin-left: 5%;
@@ -29,7 +34,7 @@ section{
     border-radius: 9px;
     font-weight: 700;
 }
-#backgrund{
+.backgrund{
     background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -38,3 +43,35 @@ section{
     background-repeat: no-repeat;
     background-position: right 2%;
 }
+.Developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 2%;
+    border-radius: 16px;
+    border-left: 7px solid blue;
+    
+}
+.Developer:hover{
+    opacity: 0.5;
+    box-shadow: 10px 10px 40px rgb(204, 92, 92);
+    transition: 0.5s;
+}
+#Web-Developer{
+    border-left: 7px solid rgba(0, 0, 255, 0.473);
+}
+#Baby-Web{
+    border-left: 7px solid red;
+}
+.Experiences{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+footer{
+    text-align: center;
+    opacity: .5;
+}
+ 
