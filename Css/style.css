@@ -47,7 +47,6 @@ h2{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 10px 10px 40px grey;
     padding-left: 2%;
     border-radius: 16px;
     border-left: 7px solid blue;
@@ -60,9 +59,12 @@ h2{
 }
 #Web-Developer{
     border-left: 7px solid rgba(0, 0, 255, 0.473);
+    border-right: 7px solid rgb(235, 252, 3);
 }
 #Baby-Web{
     border-left: 7px solid red;
+    border-right: 7px solid rgb(60, 146, 60);
+
 }
 .Experiences{
     background-image: url(../img/exp-bg.png);
@@ -74,4 +76,7 @@ footer{
     text-align: center;
     opacity: .5;
 }
+
+
+10px 10px 40px grey
  
